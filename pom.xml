@@ -4,7 +4,7 @@
 
     <groupId>com.blacknebula</groupId>
     <artifactId>volkswagen</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>volkswagen CI tests booster</name>
@@ -15,7 +15,7 @@
         <connection>scm:git:https://github.com/Hazem-Ben-Khalfallah/volkswagen.git</connection>
         <developerConnection>scm:git:git@github.com:Hazem-Ben-Khalfallah/volkswagen.git</developerConnection>
         <url>https://github.com/Hazem-Ben-Khalfallah/volkswagen</url>
-        <tag>volkswagen-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <licenses>
