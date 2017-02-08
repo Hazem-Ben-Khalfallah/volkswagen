@@ -5,7 +5,7 @@ makes them pass.
 
 [![Build Status](https://travis-ci.org/Hazem-Ben-Khalfallah/volkswagen.svg?branch=master)](https://travis-ci.org/Hazem-Ben-Khalfallah/volkswagen)
 [![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/Hazem-Ben-Khalfallah/volkswagen)
-
+[ ![Download](https://api.bintray.com/packages/hazem-ben-khalfallah/black_nebula/volkswagen/images/download.svg) ](https://bintray.com/hazem-ben-khalfallah/black_nebula/volkswagen/_latestVersion)
 
 ## Why?
 
