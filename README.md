@@ -67,9 +67,9 @@ Test suites defeated:
 
 - [junit4](https://github.com/junit-team/junit4)
 - test with other framework in progress
-## License
 
-MIT
+## License
+volkswagen java implementation is available under the MIT License.
 
 ## Credits
 Heavily inspired by: 
