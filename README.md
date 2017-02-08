@@ -28,6 +28,9 @@ Markdown snippet:
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 ```
 
+## Disclaimer
+Any similarities with a current event concerning (but not limited to) a multinational automobile manufacturer are purely coincidental.
+
 ## Maven configuration
 - include repository
 ```xml
