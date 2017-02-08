@@ -3,6 +3,7 @@
 Volkswagen detects when your tests are being run in a CI server, and
 makes them pass.
 
+[![Build Status](https://travis-ci.org/Hazem-Ben-Khalfallah/volkswagen.svg?branch=master)](https://travis-ci.org/Hazem-Ben-Khalfallah/volkswagen)
 [![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/Hazem-Ben-Khalfallah/volkswagen)
 
 
