@@ -7,6 +7,19 @@
     <groupId>com.blacknebula</groupId>
     <artifactId>volkswagen</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>volkswagen CI tests booster</name>
+    <description>Volkswagen detects when your tests are being run in a CI server, and makes them pass.</description>
+    <url>https://github.com/Hazem-Ben-Khalfallah/volkswagen</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/Hazem-Ben-Khalfallah/volkswagen/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
