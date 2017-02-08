@@ -93,7 +93,7 @@ CI servers detected:
 - [TaskCluster](http://docs.taskcluster.net)
 - [GoCD](https://www.go.cd/)
 - [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
-- + all other CI servers that exposes a `BUILD_ID` environment variable
+- + all other CI servers that exposes a `BUILD_ID`, `CI` or `CONTINUOUS_INTEGRATION` environment variable
 
 Test suites defeated:
 

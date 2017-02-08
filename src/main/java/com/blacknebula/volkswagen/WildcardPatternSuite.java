@@ -24,6 +24,10 @@ import java.util.regex.Pattern;
  */
 public class WildcardPatternSuite extends Suite {
 
+    final static String BUILD_ID = "BUILD_ID";
+    final static String CI = "CI";
+    final static String CONTINUOUS_INTEGRATION = "CONTINUOUS_INTEGRATION";
+
     public WildcardPatternSuite(Class<?> klass, RunnerBuilder builder) throws InitializationError {
         super(null, getRunners(klass, builder));
         Filter filter = CategoriesFilter.forTestSuite(klass);
@@ -187,8 +191,7 @@ public class WildcardPatternSuite extends Suite {
     }
 
     private static boolean isCi() {
-        String build_id = System.getenv("BUILD_ID");
-        //return build_id != null;
-        return true;
+        final Map<String, String> envParams = System.getenv();
+        return envParams.containsKey(BUILD_ID) || envParams.containsKey(CI) || envParams.containsKey(CONTINUOUS_INTEGRATION);
     }
 }
