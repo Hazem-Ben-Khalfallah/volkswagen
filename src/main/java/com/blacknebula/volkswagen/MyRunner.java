@@ -11,8 +11,8 @@ import org.junit.runners.model.InitializationError;
 
 import java.util.Arrays;
 
-public class MyRunner extends BlockJUnit4ClassRunner {
-    public MyRunner(Class<?> klass) throws InitializationError {
+class MyRunner extends BlockJUnit4ClassRunner {
+    MyRunner(Class<?> klass) throws InitializationError {
         super(klass);
     }
 

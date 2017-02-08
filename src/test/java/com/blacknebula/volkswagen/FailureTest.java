@@ -8,7 +8,7 @@ import org.junit.Test;
  */
 public class FailureTest {
     @Test
-    public void shouldFail() {
+    public void shouldNotFailInLocalButNotInCI() {
         Assert.fail();
     }
 }

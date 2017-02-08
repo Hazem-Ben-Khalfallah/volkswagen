@@ -8,7 +8,7 @@ import org.junit.Test;
  */
 public class TestFailure {
     @Test
-    public void shouldFail() {
+    public void shouldNotFailInCi() {
         Assert.fail();
     }
 }

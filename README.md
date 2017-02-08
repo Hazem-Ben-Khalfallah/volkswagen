@@ -35,7 +35,7 @@ Markdown snippet:
     <dependency>
         <groupId>com.blacknebula</groupId>
         <artifactId>volkswagen</artifactId>
-        <version>1.0</version>
+        <version>1.0.0</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
