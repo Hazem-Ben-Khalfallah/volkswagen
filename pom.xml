@@ -6,12 +6,12 @@
 
     <groupId>com.blacknebula</groupId>
     <artifactId>volkswagen</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <runSuite>**/AllTests.class</runSuite>
+        <runSuite>**/CiTestsBooster.class</runSuite>
     </properties>
 
     <dependencies>
@@ -42,6 +42,13 @@
                     </includes>
                 </configuration>
             </plugin>
+
+            <!-- Make this jar executable -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+
         </plugins>
     </build>
 

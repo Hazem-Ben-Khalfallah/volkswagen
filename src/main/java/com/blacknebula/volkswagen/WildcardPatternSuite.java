@@ -38,7 +38,7 @@ public class WildcardPatternSuite extends Suite {
 
     private static Class<?>[] getSuiteClasses(Class<?> klass) throws InitializationError {
         org.junit.runners.Suite.SuiteClasses annotation1 = klass.getAnnotation(org.junit.runners.Suite.SuiteClasses.class);
-        com.googlecode.junittoolbox.SuiteClasses annotation2 = klass.getAnnotation(com.googlecode.junittoolbox.SuiteClasses.class);
+        com.blacknebula.volkswagen.SuiteClasses annotation2 = klass.getAnnotation(com.blacknebula.volkswagen.SuiteClasses.class);
         if (annotation1 == null && annotation2 == null) {
             throw new InitializationError("class " + klass.getName() + " must have a SuiteClasses annotation");
         }

@@ -26,17 +26,46 @@ Markdown snippet:
 ```
 
 ## Installation
-
+- include maven dependency
+```xml
+<dependencies>
+    <dependency>
+        <groupId>com.blacknebula</groupId>
+        <artifactId>volkswagen</artifactId>
+        <version>1.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
 ```
-section under construction
+- add surefire plugin in plugins section
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+                <includes>
+                    <include>**/CiTestsBooster.class</include>
+                </includes>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 ```
-
 ## Usage
+Add the following class in your tests parent directory. Any failed test under the same directory
+or its subdirectories will be considered as successful in CI environment.
 
-section under construction
+```java
+import com.blacknebula.volkswagen.SuiteClasses;
+import com.blacknebula.volkswagen.WildcardPatternSuite;
+import org.junit.runner.RunWith;
 
-```js
-section under construction
+@RunWith(WildcardPatternSuite.class)
+@SuiteClasses
+public class CiTestsBooster {
+}
 ```
 
 ## Project status
