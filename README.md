@@ -3,6 +3,8 @@
 Volkswagen detects when your tests are being run in a CI server, and
 makes them pass.
 
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/Hazem-Ben-Khalfallah/volkswagen)
+
 
 ## Why?
 
@@ -17,7 +19,7 @@ It automatically detects CI environments and makes your test suites succeed even
 
 You can start already by adding our evergreen build badge to your README:
 
-[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/auchenberg/volkswagen)
+[![Volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg)](https://github.com/Hazem-Ben-Khalfallah/volkswagen)
 
 Markdown snippet:
 
