@@ -9,6 +9,8 @@ import org.junit.Test;
 public class TestFailure {
     @Test
     public void shouldNotFailInCi() {
-        Assert.fail();
+        if (SystemUtils.isCi()) {
+            Assert.fail();
+        }
     }
 }

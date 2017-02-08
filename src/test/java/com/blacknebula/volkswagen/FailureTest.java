@@ -8,7 +8,9 @@ import org.junit.Test;
  */
 public class FailureTest {
     @Test
-    public void shouldNotFailInLocalButNotInCI() {
-        Assert.fail();
+    public void shouldNotInCI() {
+        if (SystemUtils.isCi()) {
+            Assert.fail();
+        }
     }
 }
