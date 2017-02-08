@@ -28,7 +28,22 @@ Markdown snippet:
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 ```
 
-## Installation
+## Maven configuration
+- include repository
+```xml
+<repositories>
+  <repository>
+    <id>bintray</id>
+    <url>http://dl.bintray.com/hazem-ben-khalfallah/black_nebula</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+</repositories>
+```
 - include maven dependency
 ```xml
 <dependencies>
