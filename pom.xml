@@ -13,6 +13,13 @@
     <description>Volkswagen detects when your tests are being run in a CI server, and makes them pass.</description>
     <url>https://github.com/Hazem-Ben-Khalfallah/volkswagen</url>
 
+    <scm>
+        <connection>scm:git:https://github.com/Hazem-Ben-Khalfallah/volkswagen.git</connection>
+        <developerConnection>scm:git:git@github.com:Hazem-Ben-Khalfallah/volkswagen.git</developerConnection>
+        <url>https://github.com/Hazem-Ben-Khalfallah/volkswagen</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <licenses>
         <license>
             <name>MIT License</name>
