@@ -35,16 +35,16 @@ Any similarities with a current event concerning (but not limited to) a multinat
 - include repository
 ```xml
 <repositories>
-  <repository>
-    <id>bintray</id>
-    <url>http://dl.bintray.com/hazem-ben-khalfallah/black_nebula</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
-  </repository>
+    <repository>
+        <id>bintray</id>
+        <url>https://jcenter.bintray.com</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
 </repositories>
 ```
 - include maven dependency
