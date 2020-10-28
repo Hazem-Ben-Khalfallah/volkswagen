@@ -1,3 +1,4 @@
+![volkswagen](https://socialify.git.ci/Hazem-Ben-Khalfallah/volkswagen/image?description=1&descriptionEditable=Tests%20are%20being%20run%20in%20a%20CI%20server%2C%20and%20makes%20them%20pass%20even%20if%20they%20fail%20in%20local%20env.&font=Raleway&language=1&logo=https%3A%2F%2Fgithub.com%2FHazem-Ben-Khalfallah%2Fvolkswagen%2Fraw%2Fmaster%2Fimages%2Fvolkswagen.png&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Light)
 # volkswagen
 
 Volkswagen detects when your tests are being run in a CI server, and
